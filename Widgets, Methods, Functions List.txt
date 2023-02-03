@@ -1,0 +1,34 @@
+Container:
+	Tk()
+
+Other Widgets:
+	Frame()
+	Label()
+	Buttons()
+	Radiobutton()
+	Checkbutton()
+	Entry()
+	TopLevel() - Creates another window
+	Scale() - For vertical and horizontal sliders
+	OptionMenu()
+
+Putting Widgets in the Container or Frame methods:
+	pack()
+	grid()   -   grid_forget()
+	place()
+
+Event-trigger method:
+	mainloop()
+
+Message Boxes:
+	They are in tkinter.messagebox module:
+	- showinfo()
+	- showwarning()
+	- showerror()
+	- askquestion()
+	- askokcancel()
+	- askyesno()
+
+File Opener Dialog:
+	It is in tkinter.filedialog module:
+	- askopenfilename()
